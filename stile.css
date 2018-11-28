@@ -113,7 +113,7 @@ body{
     color: #FFF;
     width: 100%;
     text-align: center;
-    background: url(../immagini/menuSfondo.jpg) repeat-x;
+    background: url(menuSfondo.jpg) repeat-x;
     padding: 17px 0;
     height: 18px
 }
@@ -132,7 +132,7 @@ body{
 }
 
 .menu ul li a:hover {
-    background: url(../immagini/menuAttivo.jpg) repeat-x;
+    background: url(menuAttivo.jpg) repeat-x;
     color: #dfc11f
 }
 
@@ -172,6 +172,6 @@ body{
     padding: 10px;
     clear: both;
     color: #999999;
-    background: url(../immagini/menuSfondo.jpg) repeat-x;
+    background: url(menuSfondo.jpg) repeat-x;
     display: block
 }
