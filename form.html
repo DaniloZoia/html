@@ -1,0 +1,80 @@
+<!doctype html>
+
+<html lang="it">
+
+    <head>
+
+        <title>Balliamo</title>
+
+        <meta charset="UTF-8">
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="stylesheet" href="css/stile.css">
+
+    </head>
+
+    <body>
+
+        <div class="contenitore bodyform">
+
+            <div class="menu">         
+                <ul>
+                    <li><a href="index.html" title="Inizio">Inizio</a></li>
+                    <li><a href="danzecaraibiche.html" title="DanzeCaraibiche">Danze caraibiche</a></li>
+                    <li><a href="form.html" title="Form">Form</a></li>
+                </ul>
+            </div>
+
+            <div class="main">
+
+                <form class="form">
+                    <fieldset>
+                        <legend><strong>Dati personali:</strong></legend><br>
+                        <strong>Nome</strong>
+                        <input type="text" name="nome" size="26">
+                        <br><br>
+                        <strong>Cognome</strong>
+                        <input type="text" name="cognome" size="22">
+                        <br><br>
+                        <strong>E-mail</strong>
+                        <input type="email" name="email" size="25">
+                    </fieldset>
+                    <br>
+                    <fieldset>
+                        <legend><strong>Indica il tuo livello di gradimento per i seguenti balli:</strong></legend>
+                        <br>
+                        <strong>Danze Caraibiche</strong>
+                        <br>
+                        0<input type="range" name="gradimento caraibiche" min="0" max="10" step="2">10
+                        <br>
+                        <strong>Danze Latino-Americane</strong>
+                        <br>
+                        0<input type="range" name="gradimento latinoamericane" min="0" max="10" step="2">10
+                        <br>
+                    </fieldset>	
+                    <br>
+                    <fieldset>
+                        <legend><strong>Richieste:</strong></legend>
+                        <br>
+                        <strong>Scelta di invio materiale informativo/link</strong>
+                        <br>
+                        <input type="radio" name="scelta" value="danzecaraibiche"> Danze Caraibiche<br>
+                        <input type="radio" name="scelta" value="danzelatinoamericane"> Danze Latino-Americane<br>
+                        <br>
+                        <textarea name="commenti" rows="10" cols="37">Hai altre richieste o commenti? Scrivi pure qui.</textarea>
+                    </fieldset>
+                    <br>
+                    <input type="reset" value="Cancella la tua richiesta">
+                    <input type="button" onclick="location.href='esitoform.html'" value="Invia la tua richiesta">
+                </form>
+
+            </div>
+
+            <div class="footer">&copy; 2018 - Questo layout è realizzato da Danilo Zoia</div> 
+
+        </div>  
+
+    </body>
+
+</html>
